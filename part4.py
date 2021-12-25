@@ -22,5 +22,15 @@ Enter a number:  2
 Enter another number:  -2
 opposite
 '''
+number = int(input("Enter a number: "))
+number1 = int(input("Enter another number: "))
 
-#start writing your code below
+if number > 0 and number1 > 0:
+  print ("positive")
+elif number < 0 and number1 < 0:
+  print ("negative")
+elif number == 0 or number1 == 0:
+  print ("zero")
+elif number > 0 and number1 < 0 or number1 > 0 and number < 0:
+  print ("opposite")
+
